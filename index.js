@@ -8,7 +8,7 @@ class CountdownTimer {
 
         setInterval(() => {
             const currentTime = Date.now();
-            const targetDateUnix = Date.parse('Aug 15, 2021');
+            const targetDateUnix = Date.parse('Sep 17, 2021');
             const leftTime = targetDateUnix - currentTime;
             const time = this.getTimeComponents(leftTime);
             this.updateTime(time);
